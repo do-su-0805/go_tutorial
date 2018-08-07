@@ -37,3 +37,4 @@
 ## `package main` について
 - `main` の時だけは、`func main` が実行される
 - `package XXX` なら、`import XXX` できるという認識
+- [このあたり](http://cuto.unirita.co.jp/gostudy/post/go-package/) をあとで読む必要が出てきそう
