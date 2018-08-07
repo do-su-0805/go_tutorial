@@ -33,3 +33,7 @@
 - どうやら二種類あるらしい。普段 `go build` とかするのは gc (go compiler と思ったんだけど、そうすると gc compiler って呼ばれるの不自然) 
     - `gc` が多分普段使っている方。本当は `6g` とか `8g` とからしい。 [参考](https://ja.wikipedia.org/wiki/Go_\(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E\))
     - もう一つが gccgo らしく、gcc に入ってるらしい
+
+## `package main` について
+- `main` の時だけは、`func main` が実行される
+- `package XXX` なら、`import XXX` できるという認識
